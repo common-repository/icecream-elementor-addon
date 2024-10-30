@@ -1,0 +1,37 @@
+.icecream-simpleteam2 .img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.icecream-simpleteam2 .img-container .image-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+}
+
+.icecream-simpleteam2 .img-container .image-overlay .image-overlay-container {
+    background-color: #fff;
+    width: 100%;
+    margin: 15px 10px;
+    padding: 10px;
+}
+
+.icecream-simpleteam2 .img-container .social-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icecream-simpleteam .icecream-simpleteam-box .social-links li i {
+    transition: all 0.3s;
+}

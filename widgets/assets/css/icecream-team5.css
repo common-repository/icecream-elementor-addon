@@ -1,0 +1,45 @@
+.icecream-simpleteam5 .icecream-simpleteam-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icecream-simpleteam5 .member-title,
+.icecream-simpleteam5 .social-links {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s;
+}
+
+.icecream-simpleteam5:hover .member-title,
+.icecream-simpleteam5:hover .social-links {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.icecream-simpleteam5 .member-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+
+.icecream-simpleteam5:hover .member-details {
+    transform: translateY(-110px);
+}
+
+.icecream-simpleteam5 .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icecream-simpleteam5 .social-links ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}

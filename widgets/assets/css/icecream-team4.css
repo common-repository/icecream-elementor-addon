@@ -1,0 +1,17 @@
+.icecream-bigteam .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icecream-bigteam .member-details {
+    position: absolute;
+    left: 20px;
+}
+
+.icecream-bigteam .member-details ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}

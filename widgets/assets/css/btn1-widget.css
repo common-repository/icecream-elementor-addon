@@ -1,0 +1,32 @@
+.expanding-btn {
+    display: flex;
+}
+
+.expanding-btn .btn {
+    padding: 10px 17px 10px 17px;
+    border-color: transparent;
+    border-radius: 7px;
+}
+
+.expanding-btn .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.expanding-btn .btn span.icon {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+.expanding-btn .btn:hover span.icon {
+    opacity: 1;
+}
+
+.expanding-btn .btn svg {
+    width: 10px;
+    height: 10px;
+}

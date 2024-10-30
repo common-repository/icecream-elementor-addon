@@ -1,0 +1,27 @@
+.icecream_image1_card {
+    height: 280px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.icecream_image1_card * {
+    transition: 0.3s ease all;
+}
+
+.icecream_image1_card img {
+    margin: 0;
+    height: 224px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.icecream_image1_card .focus-content {
+    display: block;
+    padding: 8px 12px;
+}
+
+.icecream_image1_card p {
+    margin: 0;
+    line-height: 1.5;
+}

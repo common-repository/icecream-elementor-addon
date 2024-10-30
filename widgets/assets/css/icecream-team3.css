@@ -1,0 +1,22 @@
+.icecream-simpleteam3 .icecream-simpleteam-box {
+    display: flex;
+    align-items: center;
+}
+
+.icecream-simpleteam3 .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icecream-simpleteam3 .member-details {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icecream-simpleteam3 .social-links ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}

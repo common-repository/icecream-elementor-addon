@@ -1,0 +1,606 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IceCream Elementor Addon\n"
+"POT-Creation-Date: 2024-10-30 12:51+0330\n"
+"PO-Revision-Date: 2024-10-30 12:51+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: icecreameaddon.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/Admin.php:18 admin/Admin.php:19 admin/AdminTrait.php:9
+#: icecreameaddon.php:58
+msgid "IceCream Elementor Addon"
+msgstr "ادآن بستنی یخی المنتور"
+
+#: widgets/Icecream_Btn1.php:14
+#, fuzzy
+#| msgid "Fancy Button"
+msgid "Expand Button"
+msgstr "دکمه شگفت‌انگیز"
+
+#: widgets/Icecream_Btn1.php:49 widgets/Icecream_Image1.php:40
+#: widgets/Icecream_Image2.php:50 widgets/Icecream_Image3.php:40
+#: widgets/Icecream_Team1.php:40 widgets/Icecream_Team2.php:40
+#: widgets/Icecream_Team3.php:40 widgets/Icecream_Team4.php:40
+#: widgets/Icecream_Team5.php:41
+msgid "Content"
+msgstr "محتوا"
+
+#: widgets/Icecream_Btn1.php:57 widgets/Icecream_Btn1.php:181
+msgid "Text"
+msgstr "متن"
+
+#: widgets/Icecream_Btn1.php:59 widgets/Icecream_Btn1.php:106
+msgid "Button"
+msgstr "دکمه"
+
+#: widgets/Icecream_Btn1.php:67 widgets/Icecream_Team3.php:338
+#, fuzzy
+#| msgid "Description"
+msgid "Direction"
+msgstr "توضیحات"
+
+#: widgets/Icecream_Btn1.php:71 widgets/Icecream_Image1.php:95
+#: widgets/Icecream_Team1.php:301 widgets/Icecream_Team1.php:372
+#: widgets/Icecream_Team2.php:322 widgets/Icecream_Team2.php:393
+#: widgets/Icecream_Team2.php:519 widgets/Icecream_Team3.php:342
+#: widgets/Icecream_Team3.php:521 widgets/Icecream_Team3.php:592
+#: widgets/Icecream_Team3.php:663 widgets/Icecream_Team3.php:735
+#: widgets/Icecream_Team4.php:320 widgets/Icecream_Team4.php:392
+#: widgets/Icecream_Team4.php:464 widgets/Icecream_Team5.php:410
+#: widgets/Icecream_Team5.php:481 widgets/Icecream_Team5.php:553
+msgid "Left"
+msgstr "چپ"
+
+#: widgets/Icecream_Btn1.php:75 widgets/Icecream_Image1.php:103
+#: widgets/Icecream_Team1.php:309 widgets/Icecream_Team1.php:380
+#: widgets/Icecream_Team2.php:330 widgets/Icecream_Team2.php:401
+#: widgets/Icecream_Team2.php:527 widgets/Icecream_Team3.php:346
+#: widgets/Icecream_Team3.php:529 widgets/Icecream_Team3.php:600
+#: widgets/Icecream_Team3.php:671 widgets/Icecream_Team3.php:743
+#: widgets/Icecream_Team4.php:328 widgets/Icecream_Team4.php:400
+#: widgets/Icecream_Team4.php:472 widgets/Icecream_Team5.php:418
+#: widgets/Icecream_Team5.php:489 widgets/Icecream_Team5.php:561
+msgid "Right"
+msgstr "راست"
+
+#: widgets/Icecream_Btn1.php:92 widgets/Icecream_Btn1.php:140
+#: widgets/Icecream_Team1.php:105 widgets/Icecream_Team1.php:129
+#: widgets/Icecream_Team1.php:153 widgets/Icecream_Team1.php:177
+#: widgets/Icecream_Team1.php:201 widgets/Icecream_Team1.php:225
+#: widgets/Icecream_Team2.php:105 widgets/Icecream_Team2.php:129
+#: widgets/Icecream_Team2.php:153 widgets/Icecream_Team2.php:177
+#: widgets/Icecream_Team2.php:201 widgets/Icecream_Team2.php:225
+#: widgets/Icecream_Team3.php:114 widgets/Icecream_Team3.php:138
+#: widgets/Icecream_Team3.php:162 widgets/Icecream_Team3.php:186
+#: widgets/Icecream_Team3.php:210 widgets/Icecream_Team3.php:234
+#: widgets/Icecream_Team4.php:105 widgets/Icecream_Team4.php:129
+#: widgets/Icecream_Team4.php:153 widgets/Icecream_Team4.php:177
+#: widgets/Icecream_Team4.php:201 widgets/Icecream_Team4.php:225
+#: widgets/Icecream_Team5.php:106 widgets/Icecream_Team5.php:130
+#: widgets/Icecream_Team5.php:154 widgets/Icecream_Team5.php:178
+#: widgets/Icecream_Team5.php:202 widgets/Icecream_Team5.php:226
+msgid "Icon"
+msgstr "آیکن"
+
+#: widgets/Icecream_Btn1.php:114
+#, fuzzy
+#| msgid "Button background"
+msgid "Background-color"
+msgstr "پس‌زمینه دکمه"
+
+#: widgets/Icecream_Btn1.php:126
+#, fuzzy
+#| msgid "Hover background"
+msgid "Hover Background-color"
+msgstr "پس‌زمینه هاور"
+
+#: widgets/Icecream_Btn1.php:148
+msgid "Width"
+msgstr "اندازه"
+
+#: widgets/Icecream_Btn1.php:167 widgets/Icecream_Btn1.php:197
+#: widgets/Icecream_Image2.php:97 widgets/Icecream_Team1.php:286
+#: widgets/Icecream_Team1.php:357 widgets/Icecream_Team1.php:418
+#: widgets/Icecream_Team2.php:307 widgets/Icecream_Team2.php:378
+#: widgets/Icecream_Team2.php:439 widgets/Icecream_Team3.php:506
+#: widgets/Icecream_Team3.php:577 widgets/Icecream_Team3.php:648
+#: widgets/Icecream_Team3.php:709 widgets/Icecream_Team4.php:305
+#: widgets/Icecream_Team4.php:377 widgets/Icecream_Team4.php:438
+#: widgets/Icecream_Team5.php:395 widgets/Icecream_Team5.php:466
+#: widgets/Icecream_Team5.php:527
+msgid "Color"
+msgstr "رنگ"
+
+#: widgets/Icecream_Btn1.php:209 widgets/Icecream_Team1.php:242
+#: widgets/Icecream_Team1.php:429 widgets/Icecream_Team2.php:450
+#: widgets/Icecream_Team3.php:720 widgets/Icecream_Team4.php:449
+#: widgets/Icecream_Team5.php:538
+#, fuzzy
+#| msgid "Button color"
+msgid "Hover color"
+msgstr "رنگ دکمه"
+
+#: widgets/Icecream_Image1.php:12
+msgid "Image 1"
+msgstr "تصویر 1"
+
+#: widgets/Icecream_Image1.php:47 widgets/Icecream_Image2.php:58
+#: widgets/Icecream_Team1.php:48 widgets/Icecream_Team2.php:48
+#: widgets/Icecream_Team3.php:48 widgets/Icecream_Team4.php:48
+#: widgets/Icecream_Team5.php:49
+msgid "Choose Image"
+msgstr "انتخاب تصویر"
+
+#: widgets/Icecream_Image1.php:57 widgets/Icecream_Image2.php:71
+#: widgets/Icecream_Team1.php:339 widgets/Icecream_Team2.php:360
+#: widgets/Icecream_Team3.php:559 widgets/Icecream_Team4.php:359
+#: widgets/Icecream_Team5.php:448
+msgid "Title"
+msgstr "عنوان"
+
+#: widgets/Icecream_Image1.php:59
+msgid "Default title"
+msgstr "عنوان پیش‌فرض"
+
+#: widgets/Icecream_Image1.php:65 widgets/Icecream_Team1.php:79
+#: widgets/Icecream_Team2.php:79 widgets/Icecream_Team3.php:89
+#: widgets/Icecream_Team3.php:630 widgets/Icecream_Team4.php:79
+#: widgets/Icecream_Team5.php:80
+msgid "Description"
+msgstr "توضیحات"
+
+#: widgets/Icecream_Image1.php:68
+msgid "Default description"
+msgstr "توضیحات پیش‌فرض"
+
+#: widgets/Icecream_Image1.php:76 widgets/Icecream_Image2.php:137
+#: widgets/Icecream_Image3.php:57
+msgid "General Style"
+msgstr "استایل کلی"
+
+#: widgets/Icecream_Image1.php:84
+msgid "Box Shadow"
+msgstr "سایه متن"
+
+#: widgets/Icecream_Image1.php:91 widgets/Icecream_Team1.php:297
+#: widgets/Icecream_Team1.php:368 widgets/Icecream_Team2.php:318
+#: widgets/Icecream_Team2.php:389 widgets/Icecream_Team2.php:515
+#: widgets/Icecream_Team3.php:517 widgets/Icecream_Team3.php:588
+#: widgets/Icecream_Team3.php:659 widgets/Icecream_Team3.php:731
+#: widgets/Icecream_Team4.php:316 widgets/Icecream_Team4.php:388
+#: widgets/Icecream_Team4.php:460 widgets/Icecream_Team5.php:406
+#: widgets/Icecream_Team5.php:477 widgets/Icecream_Team5.php:549
+msgid "Alignment"
+msgstr "چینش"
+
+#: widgets/Icecream_Image1.php:99 widgets/Icecream_Team1.php:305
+#: widgets/Icecream_Team1.php:376 widgets/Icecream_Team2.php:326
+#: widgets/Icecream_Team2.php:397 widgets/Icecream_Team2.php:523
+#: widgets/Icecream_Team3.php:525 widgets/Icecream_Team3.php:596
+#: widgets/Icecream_Team3.php:667 widgets/Icecream_Team3.php:739
+#: widgets/Icecream_Team4.php:324 widgets/Icecream_Team4.php:396
+#: widgets/Icecream_Team4.php:468 widgets/Icecream_Team5.php:414
+#: widgets/Icecream_Team5.php:485 widgets/Icecream_Team5.php:557
+msgid "Center"
+msgstr "مرکز"
+
+#: widgets/Icecream_Image1.php:117
+msgid "Image Style"
+msgstr "استایل تصویر"
+
+#: widgets/Icecream_Image1.php:124
+msgid "Border radius"
+msgstr "گردی حاشیه"
+
+#: widgets/Icecream_Image1.php:143
+msgid "Image movement on hover"
+msgstr "حرکت تصویر با هاور"
+
+#: widgets/Icecream_Image1.php:165
+msgid "Title Style"
+msgstr "استایل عنوان"
+
+#: widgets/Icecream_Image1.php:172 widgets/Icecream_Image1.php:198
+msgid "Title Color"
+msgstr "رنگ عنوان"
+
+#: widgets/Icecream_Image1.php:191
+msgid "Description Style"
+msgstr "استایل توضیحات"
+
+#: widgets/Icecream_Image2.php:15
+msgid "Menu Image"
+msgstr "تصویر منو"
+
+#: widgets/Icecream_Image2.php:73
+msgid "Item1"
+msgstr "آیتم 1"
+
+#: widgets/Icecream_Image2.php:81
+msgid "Link"
+msgstr "لینک"
+
+#: widgets/Icecream_Image2.php:83 widgets/Icecream_Image2.php:114
+#: widgets/Icecream_Image2.php:119 widgets/Icecream_Image2.php:124
+msgid "#"
+msgstr "#"
+
+#: widgets/Icecream_Image2.php:108
+msgid "Menu items"
+msgstr "آیتم‌های منو"
+
+#: widgets/Icecream_Image2.php:113
+msgid "Home"
+msgstr "خانه"
+
+#: widgets/Icecream_Image2.php:118
+msgid "About"
+msgstr "درباره"
+
+#: widgets/Icecream_Image2.php:123
+msgid "Contact"
+msgstr "تماس"
+
+#: widgets/Icecream_Image2.php:145
+msgid "Menu back color"
+msgstr "رنگ پس‌زمینه منو"
+
+#: widgets/Icecream_Image2.php:157
+msgid "Image hover back color"
+msgstr "رنگ پس‌زمینه با هاور تصویر"
+
+#: widgets/Icecream_Image2.php:169
+msgid "Items typography"
+msgstr "تایپوگرافی آیتم‌ها"
+
+#: widgets/Icecream_Image3.php:12
+msgid "Image Gallery"
+msgstr "گالری تصویر"
+
+#: widgets/Icecream_Image3.php:47
+msgid "Add Images"
+msgstr "افزودن تصاویر"
+
+#: widgets/Icecream_Team1.php:12
+msgid "Team 1"
+msgstr ""
+
+#: widgets/Icecream_Team1.php:69 widgets/Icecream_Team1.php:268
+#: widgets/Icecream_Team2.php:69 widgets/Icecream_Team2.php:289
+#: widgets/Icecream_Team3.php:69 widgets/Icecream_Team3.php:488
+#: widgets/Icecream_Team4.php:69 widgets/Icecream_Team4.php:287
+#: widgets/Icecream_Team5.php:70 widgets/Icecream_Team5.php:377
+msgid "Name"
+msgstr ""
+
+#: widgets/Icecream_Team1.php:71 widgets/Icecream_Team2.php:71
+#: widgets/Icecream_Team3.php:71 widgets/Icecream_Team4.php:71
+#: widgets/Icecream_Team5.php:72
+#, fuzzy
+#| msgid "WPRocketLab"
+msgid "Rocket"
+msgstr "WPRocketLab"
+
+#: widgets/Icecream_Team1.php:72 widgets/Icecream_Team2.php:72
+#: widgets/Icecream_Team3.php:72 widgets/Icecream_Team4.php:72
+#: widgets/Icecream_Team5.php:73
+msgid "Member name"
+msgstr ""
+
+#: widgets/Icecream_Team1.php:81 widgets/Icecream_Team2.php:81
+#: widgets/Icecream_Team3.php:81 widgets/Icecream_Team4.php:81
+#: widgets/Icecream_Team5.php:82
+msgid "CEO"
+msgstr ""
+
+#: widgets/Icecream_Team1.php:82 widgets/Icecream_Team2.php:82
+#: widgets/Icecream_Team3.php:82 widgets/Icecream_Team4.php:82
+#: widgets/Icecream_Team5.php:83
+msgid "Member position"
+msgstr ""
+
+#: widgets/Icecream_Team1.php:89 widgets/Icecream_Team2.php:89
+#: widgets/Icecream_Team3.php:98 widgets/Icecream_Team4.php:89
+#: widgets/Icecream_Team5.php:90
+#, fuzzy
+#| msgid "Link"
+msgid "Link 1"
+msgstr "لینک"
+
+#: widgets/Icecream_Team1.php:91 widgets/Icecream_Team2.php:91
+#: widgets/Icecream_Team3.php:100 widgets/Icecream_Team4.php:91
+#: widgets/Icecream_Team5.php:92
+#, fuzzy
+#| msgid "https://wprocketlab.com"
+msgid "https://fb.com/..."
+msgstr "https://wprocketlab.com"
+
+#: widgets/Icecream_Team1.php:113 widgets/Icecream_Team2.php:113
+#: widgets/Icecream_Team3.php:122 widgets/Icecream_Team4.php:113
+#: widgets/Icecream_Team5.php:114
+#, fuzzy
+#| msgid "Link"
+msgid "Link 2"
+msgstr "لینک"
+
+#: widgets/Icecream_Team1.php:115 widgets/Icecream_Team2.php:115
+#: widgets/Icecream_Team3.php:124 widgets/Icecream_Team4.php:115
+#: widgets/Icecream_Team5.php:116
+#, fuzzy
+#| msgid "https://wprocketlab.com"
+msgid "https://twitter.com/..."
+msgstr "https://wprocketlab.com"
+
+#: widgets/Icecream_Team1.php:137 widgets/Icecream_Team2.php:137
+#: widgets/Icecream_Team3.php:146 widgets/Icecream_Team4.php:137
+#: widgets/Icecream_Team5.php:138
+#, fuzzy
+#| msgid "Link"
+msgid "Link 3"
+msgstr "لینک"
+
+#: widgets/Icecream_Team1.php:139 widgets/Icecream_Team2.php:139
+#: widgets/Icecream_Team3.php:148 widgets/Icecream_Team4.php:139
+#: widgets/Icecream_Team5.php:140
+msgid "https://instagram.com/..."
+msgstr ""
+
+#: widgets/Icecream_Team1.php:161 widgets/Icecream_Team2.php:161
+#: widgets/Icecream_Team3.php:170 widgets/Icecream_Team4.php:161
+#: widgets/Icecream_Team5.php:162
+#, fuzzy
+#| msgid "Link"
+msgid "Link 4"
+msgstr "لینک"
+
+#: widgets/Icecream_Team1.php:163 widgets/Icecream_Team1.php:187
+#: widgets/Icecream_Team1.php:211 widgets/Icecream_Team2.php:163
+#: widgets/Icecream_Team2.php:187 widgets/Icecream_Team2.php:211
+#: widgets/Icecream_Team3.php:172 widgets/Icecream_Team3.php:196
+#: widgets/Icecream_Team3.php:220 widgets/Icecream_Team4.php:163
+#: widgets/Icecream_Team4.php:187 widgets/Icecream_Team4.php:211
+#: widgets/Icecream_Team5.php:164 widgets/Icecream_Team5.php:188
+#: widgets/Icecream_Team5.php:212
+#, fuzzy
+#| msgid "https://wprocketlab.com"
+msgid "https://pinterest.com/..."
+msgstr "https://wprocketlab.com"
+
+#: widgets/Icecream_Team1.php:185 widgets/Icecream_Team2.php:185
+#: widgets/Icecream_Team3.php:194 widgets/Icecream_Team4.php:185
+#: widgets/Icecream_Team5.php:186
+#, fuzzy
+#| msgid "Link"
+msgid "Link 5"
+msgstr "لینک"
+
+#: widgets/Icecream_Team1.php:209 widgets/Icecream_Team2.php:209
+#: widgets/Icecream_Team3.php:218 widgets/Icecream_Team4.php:209
+#: widgets/Icecream_Team5.php:210
+#, fuzzy
+#| msgid "Link"
+msgid "Link 6"
+msgstr "لینک"
+
+#: widgets/Icecream_Team1.php:234 widgets/Icecream_Team2.php:234
+#: widgets/Icecream_Team3.php:453 widgets/Icecream_Team5.php:342
+#, fuzzy
+#| msgid "Image 1"
+msgid "Image"
+msgstr "تصویر 1"
+
+#: widgets/Icecream_Team1.php:253 widgets/Icecream_Team2.php:242
+#: widgets/Icecream_Team2.php:264 widgets/Icecream_Team3.php:461
+#: widgets/Icecream_Team5.php:350
+#, fuzzy
+#| msgid "Border radius"
+msgid "Border Radius"
+msgstr "گردی حاشیه"
+
+#: widgets/Icecream_Team1.php:276 widgets/Icecream_Team1.php:347
+#: widgets/Icecream_Team2.php:297 widgets/Icecream_Team2.php:368
+#: widgets/Icecream_Team3.php:496 widgets/Icecream_Team3.php:567
+#: widgets/Icecream_Team3.php:638 widgets/Icecream_Team4.php:295
+#: widgets/Icecream_Team4.php:367 widgets/Icecream_Team5.php:385
+#: widgets/Icecream_Team5.php:456
+#, fuzzy
+#| msgid "Text typography"
+msgid "Typography"
+msgstr "تایپوگرافی متن"
+
+#: widgets/Icecream_Team1.php:325 widgets/Icecream_Team1.php:396
+#: widgets/Icecream_Team2.php:346 widgets/Icecream_Team2.php:417
+#: widgets/Icecream_Team3.php:474 widgets/Icecream_Team3.php:545
+#: widgets/Icecream_Team3.php:616 widgets/Icecream_Team3.php:687
+#: widgets/Icecream_Team3.php:813 widgets/Icecream_Team4.php:345
+#: widgets/Icecream_Team4.php:416 widgets/Icecream_Team5.php:363
+#: widgets/Icecream_Team5.php:434 widgets/Icecream_Team5.php:505
+#: widgets/Icecream_Team5.php:631
+msgid "Margin"
+msgstr ""
+
+#: widgets/Icecream_Team1.php:410 widgets/Icecream_Team2.php:431
+#: widgets/Icecream_Team3.php:701 widgets/Icecream_Team4.php:430
+#: widgets/Icecream_Team5.php:519
+msgid "Icons"
+msgstr ""
+
+#: widgets/Icecream_Team1.php:440 widgets/Icecream_Team2.php:461
+#: widgets/Icecream_Team3.php:759 widgets/Icecream_Team4.php:488
+#: widgets/Icecream_Team5.php:577
+msgid "Size"
+msgstr ""
+
+#: widgets/Icecream_Team1.php:467 widgets/Icecream_Team2.php:488
+#: widgets/Icecream_Team3.php:786 widgets/Icecream_Team4.php:515
+#: widgets/Icecream_Team5.php:604
+msgid "Padding"
+msgstr ""
+
+#: widgets/Icecream_Team2.php:12
+msgid "Team 2"
+msgstr ""
+
+#: widgets/Icecream_Team2.php:256
+msgid "Overlay"
+msgstr ""
+
+#: widgets/Icecream_Team2.php:277
+#, fuzzy
+#| msgid "Button color"
+msgid "Background color"
+msgstr "رنگ دکمه"
+
+#: widgets/Icecream_Team3.php:12
+msgid "Team 3"
+msgstr ""
+
+#: widgets/Icecream_Team3.php:79
+#, fuzzy
+#| msgid "Description"
+msgid "Position"
+msgstr "توضیحات"
+
+#: widgets/Icecream_Team3.php:91
+#, fuzzy
+#| msgid "Default description"
+msgid "Member description..."
+msgstr "توضیحات پیش‌فرض"
+
+#: widgets/Icecream_Team3.php:243 widgets/Icecream_Team4.php:234
+#: widgets/Icecream_Team5.php:235
+#, fuzzy
+#| msgid "General Style"
+msgid "General"
+msgstr "استایل کلی"
+
+#: widgets/Icecream_Team3.php:251 widgets/Icecream_Team5.php:243
+msgid "Details margin"
+msgstr ""
+
+#: widgets/Icecream_Team3.php:264
+#, fuzzy
+#| msgid "Image 1"
+msgid "Image width %"
+msgstr "تصویر 1"
+
+#: widgets/Icecream_Team3.php:282
+msgid "Details width %"
+msgstr ""
+
+#: widgets/Icecream_Team3.php:300
+msgid "Show border"
+msgstr ""
+
+#: widgets/Icecream_Team3.php:302
+msgid "Show"
+msgstr ""
+
+#: widgets/Icecream_Team3.php:303
+msgid "Hide"
+msgstr ""
+
+#: widgets/Icecream_Team3.php:312
+#, fuzzy
+#| msgid "Border radius"
+msgid "Border width"
+msgstr "گردی حاشیه"
+
+#: widgets/Icecream_Team3.php:350
+msgid "Bottom"
+msgstr ""
+
+#: widgets/Icecream_Team3.php:366
+#, fuzzy
+#| msgid "Button color"
+msgid "Border color"
+msgstr "رنگ دکمه"
+
+#: widgets/Icecream_Team3.php:380 widgets/Icecream_Team5.php:256
+msgid "Switch position"
+msgstr ""
+
+#: widgets/Icecream_Team3.php:382 widgets/Icecream_Team5.php:258
+msgid "Yes"
+msgstr ""
+
+#: widgets/Icecream_Team3.php:383 widgets/Icecream_Team5.php:259
+msgid "No"
+msgstr ""
+
+#: widgets/Icecream_Team3.php:392
+msgid "Name position"
+msgstr ""
+
+#: widgets/Icecream_Team3.php:407 widgets/Icecream_Team5.php:268
+#, fuzzy
+#| msgid "Title Color"
+msgid "Title position"
+msgstr "رنگ عنوان"
+
+#: widgets/Icecream_Team3.php:422 widgets/Icecream_Team5.php:283
+#, fuzzy
+#| msgid "Description"
+msgid "Description position"
+msgstr "توضیحات"
+
+#: widgets/Icecream_Team3.php:437 widgets/Icecream_Team5.php:298
+msgid "Scoials position"
+msgstr ""
+
+#: widgets/Icecream_Team4.php:12
+msgid "Team 4 - big"
+msgstr ""
+
+#: widgets/Icecream_Team4.php:242
+msgid "Horizontal position"
+msgstr ""
+
+#: widgets/Icecream_Team4.php:264
+msgid "Vertical position"
+msgstr ""
+
+#: widgets/Icecream_Team5.php:13
+msgid "Team 5 - fluid"
+msgstr ""
+
+#: widgets/Icecream_Team5.php:314
+msgid "Overlay V position"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Elementor awesome and free element."
+msgstr "المان‌های رایگان و درجه یک برای المنتور."
+
+#. Author of the plugin/theme
+msgid "Reza Masoumpour"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themio.ir/"
+msgstr ""
+
+#~ msgid "Gradient title"
+#~ msgstr "عنوان گرادیان"
+
+#~ msgid "Please enter a word..."
+#~ msgstr "لطفا کلمه ای وارد کنید..."
+
+#~ msgid "Text goes here..."
+#~ msgstr "متن اینجاست..."
